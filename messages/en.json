@@ -1,0 +1,192 @@
+{
+  "sidebarItems": {
+    "defaultTitle": "",
+    "dashboard": "Dashboard",
+    "transactions": "Transactions",
+    "block": "Block",
+    "definitions": {
+      "label": "Definitions",
+      "userManagement": "User Management",
+      "branchManagement": "Branches Management",
+      "areaManagement": "Area Management",
+      "reasonsManagement": "Reasons Management",
+      "sourcesManagement": "Sources Management"
+    },
+    "settings": "Settings",
+    "reports": "Reports",
+    "logs": "Logs",
+    "userActivity": "User Activity Monitoring",
+    "logout": "Logout",
+    "changeLanguage": "Change Language"
+  },
+  "mainHeader": {
+    "title": "Companies Gateway"
+  },
+  "actions": {
+    "view": "View Details",
+    "edit": "Edit Record",
+    "delete": "Delete Record",
+    "assignRole": "Assign Role"
+  },
+  "notFound": {
+    "title": "Page Not Available",
+    "des": "Sorry, this page is currently not available. Please check back later."
+  },
+  "crudDataGrid": {
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "status": "Status",
+    "searchPlaceholder": "Search by...",
+    "dropdownDefault": "Select an option",
+    "addButton": "Add New",
+    "noItems": "No items available"
+  },
+  "edit": "Edit",
+  "delete": "Delete",
+  "active": "Active",
+  "inactive": "Inactive",
+  "dashboard": {
+    "dashboardTitle": "Dashboard",
+    "blockedAccounts": "Blocked Accounts",
+    "flaggedTransactions": "Flagged Transactions",
+    "blockedUsersToday": "Blocked Users Today",
+    "highValueTransactions": "Transactions above 50,000 LYD",
+    "transactionSummary": "Transaction Summary",
+    "blockedAccountsSummary": "Blocked Accounts Summary",
+    "transactionId": "Transaction ID",
+    "date": "Date",
+    "amount": "Amount",
+    "accountId": "Account ID",
+    "name": "Name",
+    "branch": "Branch",
+    "reason": "Reason",
+    "status": "Status",
+    "blockDate": "Block Date",
+    "blockedBy": "Blocked By",
+    "approvedBy": "Approved By",
+    "filterAll": "All",
+    "filterAboveLimit": "Above Limit",
+    "filterConfirmed": "Confirmed"
+  },
+  "definitions": {
+    "pageTitle": "Definitions",
+
+    "branchManagement": "Branches Management",
+    "areaManagement": "Area Management",
+    "reasonsManagement": "Reasons Management",
+    "sourcesManagement": "Sources Management",
+    "lang": "en",
+    "filterOptions": {
+      "filterAll": "All Users",
+      "filterByRole": "Filter by Role",
+      "filterByBranch": "Filter by Branch",
+      "filterByArea": "Filter by Area"
+    },
+    "users": {
+      "userManagement": "User Management",
+      "id": "User ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "branch": "Assigned Branch",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createdAt": "Created At",
+      "lastLogin": "Last Login",
+      "noLogin": "Never Logged In",
+      "filterOptions": {
+        "filterAll": "All Users",
+        "filterByRole": "Filter by Role",
+        "filterByBranch": "Filter by Branch"
+      },
+      "actions": {
+        "edit": "Edit User",
+        "delete": "Delete User",
+        "assignRole": "Assign Role"
+      }
+    },
+    "areas": {
+      "id": "ID",
+      "name": "Area Name",
+      "branches": "Branches",
+      "noBranches": "No branches available"
+    },
+    "branches": {
+      "id": "ID",
+      "name": "Branch Name",
+      "address": "Address",
+      "contact": "Contact Number",
+      "area": "Area",
+      "unassigned": "Unassigned"
+    },
+    "reasons": {
+      "id": "Reason ID",
+      "name": "Reason Name",
+      "description": "Reason Description"
+    },
+    "sources": {
+      "id": "Source ID",
+      "name": "Source Name",
+      "description": "Source Description"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "assignToArea": "Assign to Area"
+    }
+  },
+  "transactions": {
+    "filterAll": "All Transactions",
+    "filterFlagged": "Flagged Transactions",
+    "transactionId": "Transaction ID",
+    "dateTime": "Date & Time",
+    "amount": "Amount",
+    "accountId": "Account ID",
+    "branchName": "Branch Name",
+    "areaName": "Area Name",
+    "flagStatus": "Flag Status",
+    "reviewerComments": "Reviewer Comments",
+    "noAreaAssigned": "No Area Assigned",
+    "unflagged": "Unflagged",
+    "transactionList": "Transaction List",
+    "actions": {
+      "review": "Review",
+      "approve": "Approve",
+      "reject": "Reject",
+      "escalate": "Escalate"
+    },
+    "cancel": "Cancel"
+
+  },
+  "blocking": {
+    "headerTitle": "Blocked Customers",
+    "noCustomerSelected": "No customer selected.",
+    "customerId": "Customer ID",
+    "customerDetails": "Customer Details",
+    "name": "Name",
+    "reason": "Reason",
+    "blockDate": "Block Date",
+    "status": "Status",
+    "source": "Source",
+    "blockedBy": "Blocked By",
+    "unblockedBy": "Unblocked By",
+    "actions": {
+      "select": "Select"
+    },
+    "filterAll": "All Customers",
+    "filterBlocked": "Blocked Customers",
+    "previousActions": "Previous Actions",
+    "noPreviousActions": "No previous actions found.",
+    "unblock": "Unblock",
+    "unblockConfirmation": "Unblock Confirmation",
+    "confirmUnblockMessage": "Are you sure you want to unblock {name}?",
+    "confirm": "Yes",
+    "cancel": "No",
+    "Block": "Block",
+    "Unblock": "Unblock"
+  }
+}

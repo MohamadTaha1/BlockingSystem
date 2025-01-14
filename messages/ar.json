@@ -1,0 +1,192 @@
+{
+  "sidebarItems": {
+    "defaultTitle": "",
+    "dashboard": "لوحة التحكم",
+    "transactions": "المعاملات",
+    "block": "الحظر",
+    "definitions": {
+      "label": "التعريفات",
+      "userManagement": "إدارة المستخدمين",
+      "branchManagement": "إدارة الفروع",
+      "areaManagement": "إدارة المناطق",
+      "reasonsManagement": "إدارة الأسباب",
+      "sourcesManagement": "إدارة المصادر"
+    },
+    "settings": "الإعدادات",
+    "reports": "التقارير",
+    "logs": "السجلات",
+    "userActivity": "مراقبة نشاط المستخدم",
+    "logout": "تسجيل الخروج",
+    "changeLanguage": "تغيير اللغة"
+  },
+  "mainHeader": {
+    "title": "منظومة بوابة الشركات"
+  },
+  "actions": {
+    "view": "عرض التفاصيل",
+    "edit": "تعديل السجل",
+    "delete": "حذف السجل",
+    "assignRole": "تعيين دور"
+  },
+  "notFound": {
+    "title": "الصفحة غير متاحة حاليا",
+    "des": "عذرا، هذه الصفحة غير متاحة حاليا. يرجى التحقق في وقت لاحق."
+  },
+  "crudDataGrid": {
+    "id": "المعرف",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "status": "الحالة",
+    "searchPlaceholder": "ابحث من خلال...",
+    "dropdownDefault": "اختر خيارًا",
+    "addButton": "إضافة جديد",
+    "noItems": "لا يوجد عناصر متاحة"
+  },
+  "edit": "تعديل",
+  "delete": "حذف",
+  "active": "نشط",
+  "inactive": "غير نشط",
+  "dashboard": {
+    "dashboardTitle": "لوحة القيادة",
+   "blockedAccounts": "إجمالي الحسابات المحظورة",
+    "flaggedTransactions": "المعاملات المميزة",
+    "blockedUsersToday": "المستخدمون المحظورون اليوم",
+    "highValueTransactions": "المعاملات التي تزيد عن 50,000 دينار ليبي",
+    "transactionSummary": "ملخص المعاملات",
+    "blockedAccountsSummary": "ملخص الحسابات المحظورة",
+    "transactionId": "رقم المعاملة",
+    "date": "التاريخ",
+    "amount": "المبلغ",
+    "accountId": "رقم الحساب",
+    "name": "الاسم",
+    "branch": "الفرع",
+    "reason": "السبب",
+    "status": "الحالة",
+    "blockDate": "تاريخ الحظر",
+    "blockedBy": "حظر بواسطة",
+    "approvedBy": "تمت الموافقة بواسطة",
+    "filterAll": "الكل",
+    "filterAboveLimit": "فوق الحد",
+    "filterConfirmed": "مؤكد"
+  },
+  "definitions": {
+    "pageTitle": "التعريفات",
+    "branchManagement": "إدارة الفروع",
+    "areaManagement": "إدارة المناطق",
+    "reasonsManagement": "إدارة الأسباب",
+    "sourcesManagement": "إدارة المصادر",
+    "lang": "ar",
+    "filterOptions": {
+      "filterAll": "جميع المستخدمين",
+      "filterByRole": "تصفية حسب الدور",
+      "filterByBranch": "تصفية حسب الفرع",
+      "filterByArea": "تصفية حسب المنطقة"
+    },
+    "users": {
+      "userManagement": "إدارة المستخدمين",
+      "id": "معرف المستخدم",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "role": "الدور",
+      "branch": "الفرع المعين",
+      "status": "الحالة",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "noLogin": "لم يسجل الدخول أبدًا",
+      "createdAt": "تاريخ الإنشاء",
+      "lastLogin": "آخر تسجيل دخول",
+      "filterOptions": {
+        "filterAll": "جميع المستخدمين",
+        "filterByRole": "تصفية حسب الدور",
+        "filterByBranch": "تصفية حسب الفرع"
+      },
+      "actions": {
+        "edit": "تعديل المستخدم",
+        "delete": "حذف المستخدم",
+        "assignRole": "تعيين دور"
+      }
+    },
+    "areas": {
+      "id": "المعرف",
+      "name": "اسم المنطقة",
+      "branches": "الفروع",
+      "noBranches": "لا توجد فروع"
+    },
+    "branches": {
+      "id": "المعرف",
+      "name": "اسم الفرع",
+      "address": "العنوان",
+      "contact": "رقم الاتصال",
+      "area": "المنطقة",
+      "unassigned": "غير معين"
+    },
+    "reasons": {
+      "id": "معرف السبب",
+      "name": "اسم السبب",
+      "description": "وصف السبب"
+    },
+    "sources": {
+      "id": "معرف المصدر",
+      "name": "اسم المصدر",
+      "description": "وصف المصدر"
+    },
+    "actions": {
+      "edit": "تعديل",
+      "delete": "حذف",
+      "assignToArea": "تعيين إلى منطقة"
+    }
+  },
+  "transactions": {
+    "filterAll": "جميع المعاملات",
+    "filterFlagged": "المعاملات المعلّمة",
+    "transactionId": "رقم المعاملة",
+    "dateTime": "التاريخ والوقت",
+    "amount": "المبلغ",
+    "accountId": "رقم الحساب",
+    "branchName": "اسم الفرع",
+    "areaName": "اسم المنطقة",
+    "flagStatus": "حالة العلامة",
+    "reviewerComments": "تعليقات المراجع",
+    "noAreaAssigned": "لا توجد منطقة مخصصة",
+    "unflagged": "غير معلمة",
+    "transactionList": "قائمة المعاملات",
+    "actions": {
+      "review": "مراجعة",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "escalate": "تصعيد"
+    },
+    "cancel": "إلغاء"
+
+  },
+
+  "blocking": {
+    "headerTitle": "العملاء المحظورون",
+    "noCustomerSelected": "لم يتم اختيار عميل.",
+    "customerId": "معرف العميل",
+    "customerDetails": "تفاصيل العميل",
+    "name": "الاسم",
+    "reason": "السبب",
+    "blockDate": "تاريخ الحظر",
+    "status": "الحالة",
+    "source": "المصدر",
+    "blockedBy": "تم الحظر بواسطة",
+    "unblockedBy": "تم رفع الحظر بواسطة",
+    "actions": {
+      "select": "اختر"
+    },
+    "filterAll": "جميع العملاء",
+    "filterBlocked": "العملاء المحظورون",
+    "previousActions": "الإجراءات السابقة",
+    "noPreviousActions": "لا توجد إجراءات سابقة.",
+    "unblock": "رفع الحظر",
+    "unblockConfirmation": "تأكيد رفع الحظر",
+    "confirmUnblockMessage": "هل أنت متأكد أنك تريد رفع الحظر عن {name}؟",
+    "confirm": "نعم",
+    "cancel": "لا",
+    "Block": "حظر",
+    "Unblock": "رفع الحظر"
+  }
+}

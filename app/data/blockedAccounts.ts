@@ -1,0 +1,60 @@
+const blockedAccountsData = [
+  {
+    id: 1,
+    name: "جون دو",
+    branchId: 101,
+    areaId: 201,
+    email: "johndoe@example.com",
+    phone: "1234567890",
+    isBlocked: true,
+    blockStatus: "blocked",
+    blockDate: "2023-12-20",
+    blockedBy: "مسؤول النظام",
+    unblockedBy: null,
+    duration: "دائم",
+    reason: "نشاط احتيالي",
+    source: "تم إنشاؤه بواسطة النظام",
+    previousActions: [
+      {
+        type: "Block",
+        date: "2023-11-01",
+        reason: "تسجيل دخول مشبوه",
+        source: "إدخال يدوي",
+        blockedBy: "مستخدم المدقق",
+      },
+      {
+        type: "unblock",
+        date: "2023-11-15",
+        reason: "إنذار خاطئ",
+        unblockedBy: "مسؤول النظام",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "جين سميث",
+    branchId: 102,
+    areaId: 202,
+    email: "janesmith@example.com",
+    phone: "0987654321",
+    isBlocked: true,
+    blockStatus: "في انتظار الموافقة",
+    blockDate: "2023-12-18",
+    blockedBy: "مستخدم المدقق",
+    unblockedBy: null,
+    duration: "٣٠ يومًا",
+    reason: "عدم السداد",
+    source: "إدخال يدوي",
+    previousActions: [
+      {
+        type: "Block",
+        date: "2023-11-20",
+        reason: "رصيد مستحق",
+        source: "تم إنشاؤه بواسطة النظام",
+        blockedBy: "مسؤول النظام",
+      },
+    ],
+  },
+];
+
+export default blockedAccountsData;
