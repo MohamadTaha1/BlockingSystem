@@ -97,7 +97,7 @@ export const sidebarItems = [
   {
     id: 13,
     label: "userActivity", // Translations key for "User Activity Monitoring"
-    path: "/user-activity",
+    path: "/userActivityMonitoring",
     icon: FaUsers,
     children: [],
   },

@@ -49,7 +49,7 @@
   "inactive": "غير نشط",
   "dashboard": {
     "dashboardTitle": "لوحة القيادة",
-   "blockedAccounts": "إجمالي الحسابات المحظورة",
+    "blockedAccounts": "إجمالي الحسابات المحظورة",
     "flaggedTransactions": "المعاملات المميزة",
     "blockedUsersToday": "المستخدمون المحظورون اليوم",
     "highValueTransactions": "المعاملات التي تزيد عن 50,000 دينار ليبي",
@@ -159,7 +159,6 @@
       "escalate": "تصعيد"
     },
     "cancel": "إلغاء"
-
   },
 
   "blocking": {
@@ -188,5 +187,22 @@
     "cancel": "لا",
     "Block": "حظر",
     "Unblock": "رفع الحظر"
+  },
+  "userActivity": {
+    "headerTitle": "مراقبة نشاط المستخدمين",
+    "id": "المعرف",
+    "name": "الاسم",
+    "role": "الدور",
+    "branch": "الفرع",
+    "area": "المنطقة",
+    "status": "الحالة",
+    "lastActivity": "آخر نشاط",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "idle": "خامل",
+    "filterAll": "جميع المستخدمين",
+    "filterOnline": "المستخدمين المتصلين",
+    "filterIdle": "المستخدمين الخاملين",
+    "filterOffline": "المستخدمين غير المتصلين"
   }
 }

@@ -160,7 +160,6 @@
       "escalate": "Escalate"
     },
     "cancel": "Cancel"
-
   },
   "blocking": {
     "headerTitle": "Blocked Customers",
@@ -188,5 +187,22 @@
     "cancel": "No",
     "Block": "Block",
     "Unblock": "Unblock"
+  },
+  "userActivity": {
+    "headerTitle": "User Activity Monitoring",
+    "id": "ID",
+    "name": "Name",
+    "role": "Role",
+    "branch": "Branch",
+    "area": "Area",
+    "status": "Status",
+    "lastActivity": "Last Activity",
+    "online": "Online",
+    "offline": "Offline",
+    "idle": "Idle",
+    "filterAll": "All Users",
+    "filterOnline": "Online Users",
+    "filterIdle": "Idle Users",
+    "filterOffline": "Offline Users"
   }
 }
