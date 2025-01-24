@@ -5,7 +5,7 @@ import blockedAccountsData from "@/app/data/blockedAccounts";
 import { useTranslations } from "next-intl";
 
 const BlockedCustomerDetails = () => {
-  const t = useTranslations("blocking");
+  const t = useTranslations("unblocking");
   const { selectedCustomerId } = useCustomerContext();
   const [isModalOpen, setIsModalOpen] = useState(false);
 

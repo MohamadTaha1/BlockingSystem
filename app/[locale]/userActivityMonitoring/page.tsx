@@ -12,7 +12,8 @@ type UserActivity = {
   branch: string;
   area: string;
   status: "online" | "offline" | "idle";
-  lastActivity: string;
+  loginTime: string | null; // Added login time
+  logoutTime: string | null; // Added logout time
 };
 
 const initialUserActivity: UserActivity[] = [
@@ -23,7 +24,8 @@ const initialUserActivity: UserActivity[] = [
     branch: "Branch 1",
     area: "Area 1",
     status: "online",
-    lastActivity: "2024-12-18 14:30",
+    loginTime: "2024-12-18 08:00",
+    logoutTime: null,
   },
   {
     id: 2,
@@ -32,7 +34,8 @@ const initialUserActivity: UserActivity[] = [
     branch: "Branch 2",
     area: "Area 2",
     status: "offline",
-    lastActivity: "2024-12-18 12:15",
+    loginTime: "2024-12-18 08:15",
+    logoutTime: "2024-12-18 12:15",
   },
   {
     id: 3,
@@ -41,7 +44,8 @@ const initialUserActivity: UserActivity[] = [
     branch: "All",
     area: "All",
     status: "offline",
-    lastActivity: "2024-12-17 10:00",
+    loginTime: "2024-12-17 09:00",
+    logoutTime: "2024-12-17 10:00",
   },
 ];
 
@@ -56,7 +60,8 @@ const UserActivityMonitoring = () => {
     { key: "branch", label: t("branch") },
     { key: "area", label: t("area") },
     { key: "status", label: t("status") },
-    { key: "lastActivity", label: t("lastActivity") },
+    { key: "loginTime", label: t("loginTime") }, // Added login time column
+    { key: "logoutTime", label: t("logoutTime") }, // Added logout time column
   ];
 
   const getStatusBadge = (status: UserActivity["status"]) => {
@@ -94,7 +99,8 @@ const UserActivityMonitoring = () => {
             branch: user.branch,
             area: user.area,
             status: getStatusBadge(user.status),
-            lastActivity: user.lastActivity,
+            loginTime: user.loginTime || t("notAvailable"), // Display login time or fallback
+            logoutTime: user.logoutTime || t("notAvailable"), // Display logout time or fallback
           }))}
           columns={columns}
           showSearchBar={true}

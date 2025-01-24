@@ -4,6 +4,7 @@
     "dashboard": "Dashboard",
     "transactions": "Transactions",
     "block": "Block",
+    "unblock": "Unblock",
     "definitions": {
       "label": "Definitions",
       "userManagement": "User Management",
@@ -13,7 +14,8 @@
       "sourcesManagement": "Sources Management"
     },
     "settings": "Settings",
-    "reports": "Reports",
+    "documents": "Documents",
+    "bankDocuments": "Central Libya Bank documents",
     "logs": "Logs",
     "userActivity": "User Activity Monitoring",
     "logout": "Logout",
@@ -162,6 +164,35 @@
     "cancel": "Cancel"
   },
   "blocking": {
+    "headerTitle": "Block a Customer",
+    "enterCustomerId": "Enter Customer ID",
+    "search": "Search",
+    "customerId": "Customer ID",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "reason": "Reason",
+    "selectReason": "Select a reason",
+    "source": "Source",
+    "selectSource": "Select a source",
+    "setDuration": "Set block duration",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "block": "Block",
+    "permanent": "Permanent",
+    "blockSuccess": "Successfully blocked {name}.",
+    "errors": {
+      "requiredCustomer": "Customer ID is required.",
+      "invalidCustomer": "Invalid Customer ID.",
+      "requiredReason": "Reason is required.",
+      "requiredSource": "Source is required.",
+      "requiredStartDate": "Start date is required.",
+      "requiredEndDate": "End date is required.",
+      "endDateAfterStartDate": "End date must be after the start date."
+    },
+    "lang": "en"
+  },
+  "unblocking": {
     "headerTitle": "Blocked Customers",
     "noCustomerSelected": "No customer selected.",
     "customerId": "Customer ID",
@@ -188,21 +219,48 @@
     "Block": "Block",
     "Unblock": "Unblock"
   },
-  "userActivity": {
-    "headerTitle": "User Activity Monitoring",
-    "id": "ID",
-    "name": "Name",
-    "role": "Role",
-    "branch": "Branch",
-    "area": "Area",
-    "status": "Status",
-    "lastActivity": "Last Activity",
-    "online": "Online",
-    "offline": "Offline",
-    "idle": "Idle",
-    "filterAll": "All Users",
-    "filterOnline": "Online Users",
-    "filterIdle": "Idle Users",
-    "filterOffline": "Offline Users"
+  
+    "userActivity": {
+      "headerTitle": "User Activity Monitoring",
+      "id": "ID",
+      "name": "Name",
+      "role": "Role",
+      "branch": "Branch",
+      "area": "Area",
+      "status": "Status",
+      "lastActivity": "Last Activity",
+      "loginTime": "Login Time",
+      "logoutTime": "Logout Time",
+      "online": "Online",
+      "offline": "Offline",
+      "idle": "Idle",
+      "filterAll": "All Users",
+      "filterOnline": "Online Users",
+      "filterIdle": "Idle Users",
+      "filterOffline": "Offline Users",
+      "notAvailable": "Not Available"
+    },
+  
+  
+  "documents": {
+    "headerTitle": "Documents",
+    "addDocument": "Add Document",
+    "title": "Title",
+    "details": "Details",
+    "attachment": "Attachment",
+    "actions": "Actions",
+    "enterTitle": "Enter document title",
+    "chooseFile": "Click here to choose a file",
+    "dragDrop": "Drag and drop files here",
+    "enterDetails": "Enter details about the document",
+    "save": "Save",
+    "downloadAttachment": "Download Attachment",
+    "noAttachment": "No Attachment",
+    "delete": "Delete",
+    "downloading": "Downloading: {title}",
+    "sampleDocument1": "Sample Document 1",
+    "sampleDetails1": "Details for sample document 1.",
+    "sampleDocument2": "Sample Document 2",
+    "sampleDetails2": "Details for sample document 2."
   }
 }

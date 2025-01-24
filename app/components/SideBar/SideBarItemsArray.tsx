@@ -29,6 +29,13 @@ export const sidebarItems = [
   },
   {
     id: 3,
+    label: "unblock", // Translations key for "Block"
+    path: "/unblock",
+    icon: FaBan,
+    children: [],
+  },
+  {
+    id: 3,
     label: "block", // Translations key for "Block"
     path: "/block",
     icon: FaBan,
@@ -79,19 +86,19 @@ export const sidebarItems = [
     icon: FaCog,
     children: [],
   },
-  {
-    id: 23,
-    label: "changeLanguage",
-    path: "/change-language",
-    icon: FaLanguage,
-    children: [],
-    isLocaleToggle: true,
-  },
+
   {
     id: 11,
-    label: "reports", // Translations key for "Reports"
-    path: "/reports",
-    icon: BiRepost,
+    label: "documents", // Translations key for "Reports"
+    path: "/documents",
+    icon: FaFileAlt,
+    children: [],
+  },
+  {
+    id: 12,
+    label: "bankDocuments", // Translations key for "Reports"
+    path: "/bankDocuments",
+    icon: FaFileAlt,
     children: [],
   },
   {
@@ -100,6 +107,14 @@ export const sidebarItems = [
     path: "/userActivityMonitoring",
     icon: FaUsers,
     children: [],
+  },
+  {
+    id: 23,
+    label: "changeLanguage",
+    path: "/change-language",
+    icon: FaLanguage,
+    children: [],
+    isLocaleToggle: true,
   },
   {
     id: 14,

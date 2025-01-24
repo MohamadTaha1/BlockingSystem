@@ -4,18 +4,20 @@
     "dashboard": "لوحة التحكم",
     "transactions": "المعاملات",
     "block": "الحظر",
+    "unblock": "رفع الحظر",
     "definitions": {
       "label": "التعريفات",
-      "userManagement": "إدارة المستخدمين",
+      "userManagement": "إدارة الموظفون",
       "branchManagement": "إدارة الفروع",
       "areaManagement": "إدارة المناطق",
       "reasonsManagement": "إدارة الأسباب",
       "sourcesManagement": "إدارة المصادر"
     },
     "settings": "الإعدادات",
-    "reports": "التقارير",
+    "documents": "التقارير",
+    "bankDocuments": "قوائم مصرف ليبيا المركزي",
     "logs": "السجلات",
-    "userActivity": "مراقبة نشاط المستخدم",
+    "userActivity": "إدارة نشاط المراقبين ",
     "logout": "تسجيل الخروج",
     "changeLanguage": "تغيير اللغة"
   },
@@ -50,8 +52,8 @@
   "dashboard": {
     "dashboardTitle": "لوحة القيادة",
     "blockedAccounts": "إجمالي الحسابات المحظورة",
-    "flaggedTransactions": "المعاملات المميزة",
-    "blockedUsersToday": "المستخدمون المحظورون اليوم",
+    "flaggedTransactions": "الحالات تحت الاشتباه",
+    "blockedUsersToday": "الزبائن المحظورون",
     "highValueTransactions": "المعاملات التي تزيد عن 50,000 دينار ليبي",
     "transactionSummary": "ملخص المعاملات",
     "blockedAccountsSummary": "ملخص الحسابات المحظورة",
@@ -84,7 +86,7 @@
       "filterByArea": "تصفية حسب المنطقة"
     },
     "users": {
-      "userManagement": "إدارة المستخدمين",
+      "userManagement": "إدارة الموظفون",
       "id": "معرف المستخدم",
       "name": "الاسم",
       "email": "البريد الإلكتروني",
@@ -98,13 +100,13 @@
       "createdAt": "تاريخ الإنشاء",
       "lastLogin": "آخر تسجيل دخول",
       "filterOptions": {
-        "filterAll": "جميع المستخدمين",
+        "filterAll": "جميع الموظفون",
         "filterByRole": "تصفية حسب الدور",
         "filterByBranch": "تصفية حسب الفرع"
       },
       "actions": {
-        "edit": "تعديل المستخدم",
-        "delete": "حذف المستخدم",
+        "edit": "تعديل الموظفون",
+        "delete": "حذف الموظفون",
         "assignRole": "تعيين دور"
       }
     },
@@ -156,12 +158,40 @@
       "review": "مراجعة",
       "approve": "موافقة",
       "reject": "رفض",
-      "escalate": "تصعيد"
+      "escalate": "إحالة "
     },
     "cancel": "إلغاء"
   },
-
   "blocking": {
+    "headerTitle": "حظر عميل",
+    "enterCustomerId": "أدخل معرف العميل",
+    "search": "بحث",
+    "customerId": "معرف العميل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "reason": "السبب",
+    "selectReason": "اختر السبب",
+    "source": "المصدر",
+    "selectSource": "اختر المصدر",
+    "setDuration": "تحديد مدة الحظر",
+    "startDate": "تاريخ البداية",
+    "endDate": "تاريخ النهاية",
+    "block": "حظر",
+    "permanent": "دائم",
+    "blockSuccess": "تم حظر {name} بنجاح.",
+    "errors": {
+      "requiredCustomer": "معرف العميل مطلوب.",
+      "invalidCustomer": "معرف العميل غير صحيح.",
+      "requiredReason": "السبب مطلوب.",
+      "requiredSource": "المصدر مطلوب.",
+      "requiredStartDate": "تاريخ البداية مطلوب.",
+      "requiredEndDate": "تاريخ النهاية مطلوب.",
+      "endDateAfterStartDate": "يجب أن يكون تاريخ النهاية بعد تاريخ البداية."
+    },
+    "lang": "ar"
+  },
+  "unblocking": {
     "headerTitle": "العملاء المحظورون",
     "noCustomerSelected": "لم يتم اختيار عميل.",
     "customerId": "معرف العميل",
@@ -189,7 +219,7 @@
     "Unblock": "رفع الحظر"
   },
   "userActivity": {
-    "headerTitle": "مراقبة نشاط المستخدمين",
+    "headerTitle": "إدارة نشاط المراقبين ",
     "id": "المعرف",
     "name": "الاسم",
     "role": "الدور",
@@ -199,10 +229,35 @@
     "lastActivity": "آخر نشاط",
     "online": "متصل",
     "offline": "غير متصل",
+    "loginTime": "وقت الدخول",
+    "logoutTime": "وقت الخروج",
     "idle": "خامل",
-    "filterAll": "جميع المستخدمين",
-    "filterOnline": "المستخدمين المتصلين",
-    "filterIdle": "المستخدمين الخاملين",
-    "filterOffline": "المستخدمين غير المتصلين"
+    "filterAll": "جميع الموظفون",
+    "filterOnline": "الموظفون المتصلين",
+    "filterIdle": "الموظفون الخاملين",
+    "filterOffline": "الموظفون غير المتصلين",
+    "notAvailable": "غير متوفر"
+
+  },
+  "documents": {
+    "headerTitle": "المستندات",
+    "addDocument": "إضافة مستند",
+    "title": "العنوان",
+    "details": "التفاصيل",
+    "attachment": "المرفق",
+    "actions": "الإجراءات",
+    "enterTitle": "أدخل عنوان المستند",
+    "chooseFile": "اضغط هنا لاختيار ملف",
+    "dragDrop": "اسحب وأفلت الملفات هنا",
+    "enterDetails": "أدخل تفاصيل حول المستند",
+    "save": "حفظ",
+    "downloadAttachment": "تحميل المرفق",
+    "noAttachment": "لا يوجد مرفق",
+    "delete": "حذف",
+    "downloading": "جارٍ التحميل: {title}",
+    "sampleDocument1": "مستند تجريبي 1",
+    "sampleDetails1": "تفاصيل المستند التجريبي 1.",
+    "sampleDocument2": "مستند تجريبي 2",
+    "sampleDetails2": "تفاصيل المستند التجريبي 2."
   }
 }

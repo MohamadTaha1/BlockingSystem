@@ -5,7 +5,7 @@ import blockedAccountsData from '@/app/data/blockedAccounts';
 import { useTranslations } from 'next-intl';
 
 const BlockedCustomers = () => {
-  const t = useTranslations('blocking');
+  const t = useTranslations('unblocking');
   const { setSelectedCustomerId } = useCustomerContext();
 
   const columns = [

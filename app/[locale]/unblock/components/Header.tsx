@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 
 const Header = () => {
-  const t = useTranslations('blocking');
+  const t = useTranslations('unblocking');
 
   return (
     <header className="bg-white shadow p-4 rounded-lg">
