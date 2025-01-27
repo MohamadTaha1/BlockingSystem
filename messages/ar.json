@@ -237,27 +237,27 @@
     "filterIdle": "الموظفون الخاملين",
     "filterOffline": "الموظفون غير المتصلين",
     "notAvailable": "غير متوفر"
-
   },
   "documents": {
     "headerTitle": "المستندات",
     "addDocument": "إضافة مستند",
     "title": "العنوان",
     "details": "التفاصيل",
-    "attachment": "المرفق",
+    "attachment": "المستند",
     "actions": "الإجراءات",
     "enterTitle": "أدخل عنوان المستند",
     "chooseFile": "اضغط هنا لاختيار ملف",
     "dragDrop": "اسحب وأفلت الملفات هنا",
     "enterDetails": "أدخل تفاصيل حول المستند",
     "save": "حفظ",
-    "downloadAttachment": "تحميل المرفق",
-    "noAttachment": "لا يوجد مرفق",
+    "downloadAttachment": "تحميل المستند",
+    "noAttachment": "لا يوجد المستند",
     "delete": "حذف",
     "downloading": "جارٍ التحميل: {title}",
     "sampleDocument1": "مستند تجريبي 1",
     "sampleDetails1": "تفاصيل المستند التجريبي 1.",
     "sampleDocument2": "مستند تجريبي 2",
-    "sampleDetails2": "تفاصيل المستند التجريبي 2."
+    "sampleDetails2": "تفاصيل المستند التجريبي 2.",
+    "filterAll": "جميع المستندات"
   }
 }

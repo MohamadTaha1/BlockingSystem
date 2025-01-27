@@ -261,6 +261,7 @@
     "sampleDocument1": "Sample Document 1",
     "sampleDetails1": "Details for sample document 1.",
     "sampleDocument2": "Sample Document 2",
-    "sampleDetails2": "Details for sample document 2."
+    "sampleDetails2": "Details for sample document 2.",
+    "filterAll": "All Users"
   }
 }

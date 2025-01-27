@@ -4,7 +4,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { sidebarItems } from "./SideBarItemsArray";
 import { useTranslations } from "next-intl";
-import { FaBars, FaUser } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import Divider from "./Divider";
 import LinkItem from "./LinkItem";
 

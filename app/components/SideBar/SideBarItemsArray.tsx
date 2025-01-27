@@ -10,7 +10,7 @@ import {
   FaList,
   FaLanguage,
 } from "react-icons/fa";
-import { BiRepost } from "react-icons/bi";
+
 
 export const sidebarItems = [
   {
